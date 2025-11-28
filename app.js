@@ -21,7 +21,7 @@ app.get('/', async (req, res) => {
 
         res.send(`
             <h1>✅ Kết nối DB Render thành công!</h1>
-            <h1>✅ Hồ Quang Lành, Trần Nữ Hồ Na, Nguyễn Hữu Luật</h1>
+            <h1>✅ Ho Quang Lanh, Tran Nu Ho Na, Nguyen Huu Luat</h1>
             <p>⏰ Thời gian từ DB: <b>${result.rows[0].current_time}</b></p>
         `);
 
